@@ -1,0 +1,150 @@
+{
+"10300000101": { # The item id
+    "ability_list": [
+      6
+    ],
+    "base_price": 131255606, # Static price set by the game for this item
+    "capacity": 900, # Cargo capacity
+    "faction_id": 500001,
+    "graphic_id": 1894,
+    "icon_id": 10303000002, # id of the icon
+    "is_omega": 0,
+    "market_group_id": 100002010,
+    "mass": 11720000.0,
+    "prefab_id": 10300000101,
+    "race_id": 1,
+    "radius": 166,
+    "sof_faction_name": "ishukone",
+    "sound_id": 20068,
+    "volume": 101000.0,
+    "zh_desc": "卡拉吉卡集团对巨鸟级进行了改造，护盾防御能力大幅提升。",
+    "zh_name": "巨鸟级守卫型",
+    "en_name": "Moa Guardian",
+    "en_desc": "The Kaalakiota Corporation modified the Moa, greatly improving its shields.",
+    "de_name": "Moa Guardian",
+    "de_desc": "Die Kaalakiota Corporation modifizierte die Moa und verbesserte ihre Schilde erheblich.",
+    "fr_name": "Moa Guardien",
+    "fr_desc": "La Kaalakiota Corporation modifia le Moa pour améliorer les capacités défensives de son bouclier.",
+    "ja_name": "モア級・守衛型",
+    "ja_desc": "カーラキオタはモア級を改造し、シールド防御能力を大幅に向上させた。",
+    "por_name": "Moa Guardiã",
+    "por_desc": "A Kaalakiota Corporation modificou a Moa, melhorando em grande medida os escudos da nave.",
+    "ru_name": "Moa: хранитель",
+    "ru_desc": "Корпорация Kaalakiota модифицировала Moa, значительно усилив его щиты.",
+    "spa_name": "Moa guardián",
+    "spa_desc": "La Corporación Kaalakiota modificó el Moa, lo que mejoró considerablemente sus escudos.",
+    "zhcn_name": "巨鸟级守卫型",
+    "zhcn_desc": "卡拉吉卡集团对巨鸟级进行了改造，护盾防御能力大幅提升。",
+    "kr_name": "모아 가드형",
+    "kr_desc": "카라즈카 그룹은 모아를 개조하여 실드와 방어 능력을 대폭 상승시켰다.",
+    "group_id": "10300", # id of the group this item is in
+    "group_name": { # names of the group this item is in by language
+      "zh": "巡洋舰",
+      "en": "Cruiser",
+      "de": "Kreuzer",
+      "fr": "Croiseur",
+      "ja": "巡洋艦",
+      "por": "Cruzador",
+      "ru": "Крейсер",
+      "spa": "Crucero",
+      "zhcn": "巡洋舰",
+      "kr": "크루저"
+    },
+    "category_id": "10", # id of the category this item is in
+    "category_name": { # names of the category this item is in by language
+      "zh": "舰船",
+      "en": "Ship",
+      "de": "Schiff",
+      "fr": "Vaisseau",
+      "ja": "艦船",
+      "por": "Nave",
+      "ru": "Корабль",
+      "spa": "Nave",
+      "zhcn": "舰船",
+      "kr": "함선"
+    },
+    "icon_url": "https://auxilus.xyz/echoes/api/icon/10300000101", # link that can be used to display the icon for this item from my API. Will not be present when icon_id is not present.
+    "attributes": { # array of this items attributes.
+      "techLevel": 7.0,
+      "mass": 11720000.0,
+      "specialFuelBayCapacity": 0.0,
+      "shipMaintenanceBayCapacity": 0.0,
+      "fleetHangarCapacity": 0.0,
+      "specialGasHoldCapacity": 0.0,
+      "specialSalvageHoldCapacity": 0.0,
+      "specialShipHoldCapacity": 0.0,
+      "specialSmallShipHoldCapacity": 0.0,
+      "specialMediumShipHoldCapacity": 0.0,
+      "specialLargeShipHoldCapacity": 0.0,
+      "specialIndustrialShipHoldCapacity": 0.0,
+      "specialAmmoHoldCapacity": 0.0,
+      "specialBoosterHoldCapacity": 0.0,
+      "specialCorpseHoldCapacity": 0.0,
+      "specialQuafeHoldCapacity": 0.0,
+      "specialCommandCenterHoldCapacity": 0.0,
+      "specialSubsystemHoldCapacity": 0.0,
+      "specialPlanetaryCommoditiesHoldCapacity": 0.0,
+      "fighterCapacity": 0.0,
+      "logisticsCapacity": 0.0,
+      "droneSlotsLeft": 1.0, # amount of drone slots
+      "radius": 166.0,
+      "volume": 101000.0,
+      "agility": 0.39, # inertial modifier. lower is better
+      "maxVelocity": 243.0, # base max speed of this ship
+      "warpSpeedMultiplier": 3.0, # base warp speed
+      "highSlot": 3.0, # amount of high slots
+      "medSlot": 2.0, # amount of medium slots
+      "lowSlot": 5.0, # amount of low slots
+      "mechanicalRigSlots": 3.0, # amount of mechanical rig slots
+      "energyRigSlots": 3.0, # amount of combat rig slots
+      "powerOutput": 658.0, # base powergrid output 
+      "shipSize": 3.0,
+      "shieldCapacity": 5330.0, # base ship shield capacity
+      "shieldCharge": 0.0,
+      "shieldEmDamageResonance": 1.0, # % of em damage ships shields take. 1 - Resonance = resistance
+      "shieldThermalDamageResonance": 0.7200000000000001, # % of thermal damage ships shields take. 1 - Resonance = resistance
+      "shieldKineticDamageResonance": 0.6000000000000001, # % of kinetic damage ships shields take. 1 - Resonance = resistance
+      "shieldExplosiveDamageResonance": 0.5, # % of explosive damage ships shields take. 1 - Resonance = resistance
+      "shieldRechargeRate": 6030000.0, # amount of time it takes to fully recharge ship shields in milliseconds
+      "armorHP": 3598.0,  # base ship armor hp
+      "armorDamage": 0.0,
+      "armorEmDamageResonance": 0.5, # % of em damage ships armor takes. 1 - Resonance = resistance
+      "armorThermalDamageResonance": 0.5525, # % of thermal damage ships armor takes. 1 - Resonance = resistance
+      "armorKineticDamageResonance": 0.7500000000000001, # % of kinetic damage ships armor takes. 1 - Resonance = resistance
+      "armorExplosiveDamageResonance": 0.9, # % of explosive damage ships armor takes. 1 - Resonance = resistance
+      "hp": 3652.0, # base ship hull hp
+      "damage": 0.0,
+      "emDamageResonance": 0.6667000000000001, # % of em damage ships hull takes. 1 - Resonance = resistance
+      "thermalDamageResonance": 0.6667000000000001, # % of thermal damage ships hull takes. 1 - Resonance = resistance
+      "kineticDamageResonance": 0.6667000000000001, # % of kinetic damage ships hull takes. 1 - Resonance = resistance
+      "explosiveDamageResonance": 0.6667000000000001, # % of explosive damage ships hull takes. 1 - Resonance = resistance
+      "capacitorCapacity": 2464.0, # base ship capacitor capacity
+      "charge": 0.0,
+      "rechargeRate": 504000.0, # time to recharge capacitor in milliseconds
+      "warpCapacitorNeed": 1e-06,
+      "scanRadarStrength": 15.1, # sensor strength
+      "maxTargetRange": 64980.0,
+      "scanResolution": 231.0,
+      "maxLockedTargets": 6.0,
+      "signatureRadius": 109.5,
+      "metaLevel": 0.0,
+      "droneBandwidth": 3.0,
+      "droneCapacity": 100.0,
+      "tempHPMaxEnergy": 0.0,
+      "tempHPCurEnergy": 0.0,
+      "tempHPMaxShield": 0.0,
+      "tempHPCurShield": 0.0,
+      "tempHPMaxArmor": 0.0,
+      "tempHPCurArmor": 0.0,
+      "capacity": 900.0, # ship cargo capacity
+      "specialOreHoldCapacity": 0.0, # ore hold capacity. 0 = no ore hold
+      "specialMineralHoldCapacity": 0.0, # mineral hold capacity. 0 = no ore hold
+      "specialFacilityHoldCapacity": 0.0, # facility hold capacity. 0 = no ore hold
+      "FuelRemain": 0.0,
+      "scanSignalSourceRadius": 285.2
+    },
+    "effects": {
+      "specialBonus": false
+    }
+  }
+}
