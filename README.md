@@ -3,7 +3,9 @@ A set of files with eve echoes informational files.
 
 Files can be found at: https://auxilus.xyz/eve-echoes-data/files
 
+
 __File List__
+
 planets.sqlite3 - sqlite database with tables of information regarding the map and its organization. Also contains PI info. Was generated a long time ago.
 
 eve_data.sqlite3 - sqlite database with tables of information regarding various things, including some reprocessing and blueprints. Was generated a long time ago.
@@ -51,3 +53,9 @@ If you replace the <item_id> placeholder, an icon for the item of the given id w
 - https://auxilus.xyz/echoes/api/icon/10100000109
 
 This endpoint has NO RATE LIMIT! Go crazy.
+
+
+
+__Examples__
+
+documented_ship_item.json - this example file includes a sample ship item, in this case a Moa Guardian. It has notes next to many of the values to help explain their meaning.
